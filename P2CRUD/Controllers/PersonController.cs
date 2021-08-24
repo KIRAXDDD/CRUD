@@ -10,7 +10,6 @@ namespace P2CRUD.Controllers
 {
     public class PersonController : Controller
     {
-
         private readonly MyDbContext myDb;
 
         public PersonController(MyDbContext myDb)
